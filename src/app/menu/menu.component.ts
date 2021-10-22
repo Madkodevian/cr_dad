@@ -27,7 +27,7 @@ export class MenuComponent implements OnInit {
         title: '¿Estás seguro?',
         text: '¿Quieres salir de la sesión?',
         icon: 'error',
-        //timer: 3000,
+        //timer: 300,
         confirmButtonText: 'Aceptar',
         cancelButtonText: 'Cancelar',
         showCancelButton: true,
@@ -47,9 +47,6 @@ export class MenuComponent implements OnInit {
         }) // fin de pregunta estas seguro?
        
         }
-       
-      localStorage.removeItem('personalToken');
     }
-    //window.location.reload();
   }
 

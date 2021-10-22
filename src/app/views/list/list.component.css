@@ -92,3 +92,13 @@ box-sizing:border-box
 .img-width{
     width: 100%;
 }
+
+/* CONTAINER'S BACKGROUND */
+.bg-container{
+    background-color: rgb(234, 247, 255);
+}
+
+mat-grid-tile {
+    background: lightblue;
+  }
+  

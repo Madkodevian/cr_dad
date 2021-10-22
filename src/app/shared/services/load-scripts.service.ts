@@ -3,6 +3,9 @@ import { Injectable } from '@angular/core';
  providedIn: 'root'
 })
 export class LoadScriptsService {
+ retrieveEntry() {
+     throw new Error('Method not implemented.');
+ }
  constructor() { }
  Load (files: string [] )
  {

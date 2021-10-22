@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { EntreeService } from 'src/app/shared/services/entree.service';
 import { LoadScriptsService } from 'src/app/shared/services/load-scripts.service';
 
+
+
 @Component({
  selector: 'app-list',
  templateUrl: './list.component.html',
